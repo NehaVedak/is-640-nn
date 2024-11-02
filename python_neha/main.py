@@ -5,11 +5,11 @@ from nn import MLP
 xs = [[2.0, 3.0, -1.0], 
       [3.0, -1.0, 0.5], 
       [0.5, 1.0, 1.0], 
-      [1.0, 1.0, -1.0]]  # Input data
+      [1.0, 1.0, -1.0]]  # Input datas
 
 ys = [0.0, 1.0, 1.0, 0.0]  # Target output
 
-# Initialize the MLP with input and output size
+# Initialize the MLP with input and output sizes
 n = MLP(3, [4, 4, 1])
 
 # Training loop

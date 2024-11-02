@@ -10,7 +10,7 @@ class Module:
     def parameters(self):
         return []
     
-    #code
+    #coding
     
 class Neuron(Module):
 
